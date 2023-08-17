@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100%;
+  font-family: "Heebo", sans-serif;
+  font-size: 16px;
+  background: #fff;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+header {
+  margin: 1rem;
+}
+header ul {
+  display: flex;
+  justify-content: flex-end;
+}
+header ul li a {
+  margin-right: 2rem;
+  color: #000;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.toggle{
+    display: none;
+}
+/* hero-section */
+
+.hero-section {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-evenly;
+  margin: 6rem;
+  padding: 2rem;
+}
+
+.textWrapper {
+  width: 31.625rem;
+  height: 6.5625rem;
+  color: #21243d;
+}
+.textWrapper h1 {
+  font-size: 2.75rem;
+}
+.textWrapper p {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 1rem;
+}
+.textWrapper button {
+  border-radius: 0.125rem;
+  background: rgba(255, 100, 100, 1);
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 0.6rem 1rem;
+  border: none;
+  margin-top: 1rem;
+}
+.profile-img {
+  border: 1px solid black;
+  width: 15.1875rem;
+  height: 15.1875rem;
+  border-radius: 15.1875rem;
+}
+
+/* Recent Post */
+.post-container {
+  padding: 1rem 8rem;
+  background: rgba(237, 247, 250, 1);
+}
+.recentPostAndview {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 8rem;
+}
+.recentPostAndview a {
+  color: #00a8cc;
+}
+.posts {
+  display: flex;
+  justify-content: space-around;
+}
+.post {
+  width: 26.125rem;
+  background: #fff;
+  padding: 2rem;
+}
+.post h2 {
+  margin-bottom: 1rem;
+}
+.dataAndTech {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10%;
+  margin-bottom: 0.8rem;
+  font-weight: 400;
+  font-size: 1.125rem;
+}
+.post p {
+  color: #21243d;
+  font-size: 1rem;
+  font-weight: 400;
+}
+/* Featured Works */
+.FeaturedWorks {
+  color: #21243d;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+.FeaturedWorks .featuredHeading {
+  margin-left: 22%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-size: 1.3rem;
+
+}
+.FeaturedWorks p {
+  margin-top: 1rem;
+  color: #21243d;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.works {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 9rem;
+}
+.work {
+  display: flex;
+  gap: 2%;
+  width: 50rem;
+  padding-bottom: 3%;
+  margin-bottom: 3%;
+  border-bottom: 1px solid #8695A4;
+}
+
+.featuredText .year {
+  border-radius: 1rem;
+  background: #142850;
+  color: #fff;
+  font-size: 0.7rem;
+  padding: 3px 6px;
+  font-weight: 500;
+}
+.yearAndType{
+    display: flex;
+    align-items: center;
+}
+
+.featuredText span:last-of-type{
+    margin-left: 4%;
+    color: #8695A4;
+    font-size: 1.25rem;
+}
+.featuredText h3{
+    margin-bottom: 1.5rem;
+}
+
+/* Footer */
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+footer .social-media{
+    display: flex;
+    gap: 20%;
+}
+
+.copyright{
+    margin-top: 1rem;
+    margin-left: 4rem;
+}
